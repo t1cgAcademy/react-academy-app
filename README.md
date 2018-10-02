@@ -3,10 +3,11 @@
 This is a boilerplate using create-react-app v2.0.3. We have also added ESLint in order to find errors and format code properly.
 
 ## Setup
-1. git clone URL
+Run the following commands:
+1. git clone https://github.com/t1cgAcademy/react-academy-app.git
 2. cd into react-academy-app project directory
-3.  run yarn install
-4. run yarn start
+3. yarn
+4. yarn start
 
 ## Resources
 create-react-app v2.0.3
