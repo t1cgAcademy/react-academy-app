@@ -7,3 +7,7 @@ This is a boilerplate using create-react-app v2.0.3. We have also added ESLint i
 2. cd into react-academy-app project directory
 3.  run yarn install
 4. run yarn start
+
+## Resources
+create-react-app v2.0.3
+https://github.com/facebook/create-react-app/releases/tag/v2.0.3
