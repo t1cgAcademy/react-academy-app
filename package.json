@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-eslint": "^9.0.0",
     "eslint-config-react-app": "^3.0.3",
     "eslint-config-uber-es2015": "^3.1.2",
     "eslint-plugin-flowtype": "^2.50.3",
@@ -20,8 +21,6 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-uber-jsx": "^3.3.3",
     "eslint-plugin-babel": "^5.2.1",
