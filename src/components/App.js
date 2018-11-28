@@ -1,22 +1,21 @@
 import React, {Component} from 'react';
 import t1cgLogo from './t1cgLogo.png';
-import './App.css';
+import style from './App.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={t1cgLogo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Academy App</h1>
+      <div className={style.App}>
+        <header className={style.App_header}>
+          <img src={t1cgLogo} className={style.App_logo} alt="logo" />
+          <h1 className={style.App_title}>Welcome to React Academy App</h1>
         </header>
-        <p className="App-intro">
+        <p className={style.App_intro}>
           To get started, edit
           <code> src/App.js </code>
           and save to reload.

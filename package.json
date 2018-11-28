@@ -1,37 +1,42 @@
 {
   "name": "react-academy-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint-config-react-app": "^3.0.3",
-    "eslint-config-uber-es2015": "^3.1.2",
-    "eslint-plugin-flowtype": "^2.50.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.3"
-  },
+  "version": "1.0.0",
+  "description": "Boilerplate for T1CG React apps",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t1cgAcademy/react-academy-app.git"
+  },
+  "author": "T1CG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t1cgAcademy/react-academy-app/issues"
+  },
+  "homepage": "https://github.com/t1cgAcademy/react-academy-app#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-uber-jsx": "^3.3.3",
-    "eslint-plugin-babel": "^5.2.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
 }
