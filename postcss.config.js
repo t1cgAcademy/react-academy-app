@@ -1,5 +1,9 @@
 const webpack = require('webpack');
 
-const postcssConfig = {
-  plugins: [require('precss'), require('autoprefixer')]
+module.exports = {
+  plugins: [
+    require('postcss-import')({addDependencyTo: webpack}),
+    require('precss'),
+    require('autoprefixer')
+  ]
 };
